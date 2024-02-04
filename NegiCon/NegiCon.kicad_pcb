@@ -161,8 +161,8 @@
   (net 76 "unconnected-(U4-GP11-Pad15)")
   (net 77 "unconnected-(U4-GP12-Pad16)")
   (net 78 "unconnected-(U4-GP13-Pad17)")
-  (net 79 "unconnected-(U4-GP14-Pad19)")
-  (net 80 "unconnected-(U4-GP15-Pad20)")
+  (net 79 "SCL_air")
+  (net 80 "SDA_air")
   (net 81 "unconnected-(U4-VSYS-Pad39)")
   (net 82 "unconnected-(U4-3V3_EN-Pad37)")
   (net 83 "unconnected-(U4-ADC_VREF-Pad35)")
@@ -503,7 +503,7 @@
     (fp_rect (start -232.75 42) (end 232.75 -42)
       (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 7a4f1803-6b90-471f-bcb4-731bfa16cc1d))
     (pad "0" smd custom (at -217.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 13 "X0_L") (pinfunction "X0") (pintype "input")
+      (net 13 "X0_L") (pinfunction "X0") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -562,7 +562,7 @@
           (width 0) (fill yes))
       ) (tstamp 05cf09fb-ad84-4f7e-bea9-95118ac05186))
     (pad "1" smd custom (at -188.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 15 "X1_L") (pinfunction "X1") (pintype "input")
+      (net 15 "X1_L") (pinfunction "X1") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -621,7 +621,7 @@
           (width 0) (fill yes))
       ) (tstamp d8a25324-694a-42ec-a605-1fed11742de5))
     (pad "2" smd custom (at -159.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 17 "X2_L") (pinfunction "X2") (pintype "input")
+      (net 17 "X2_L") (pinfunction "X2") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -680,7 +680,7 @@
           (width 0) (fill yes))
       ) (tstamp 9361f099-4911-42bc-bfc2-f0ee4d8f07a5))
     (pad "3" smd custom (at -130.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 19 "X3_L") (pinfunction "X3") (pintype "input")
+      (net 19 "X3_L") (pinfunction "X3") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -739,7 +739,7 @@
           (width 0) (fill yes))
       ) (tstamp 4a078b61-cb27-402a-a76f-831cef31e399))
     (pad "4" smd custom (at -101.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 21 "X4_L") (pinfunction "X4") (pintype "input")
+      (net 21 "X4_L") (pinfunction "X4") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -798,7 +798,7 @@
           (width 0) (fill yes))
       ) (tstamp b7366e92-2565-432b-9178-df1edb356551))
     (pad "5" smd custom (at -72.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 23 "X5_L") (pinfunction "X5") (pintype "input")
+      (net 23 "X5_L") (pinfunction "X5") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -857,7 +857,7 @@
           (width 0) (fill yes))
       ) (tstamp f60eeeea-9d48-437b-a26f-a34077734469))
     (pad "6" smd custom (at -43.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 25 "X6_L") (pinfunction "X6") (pintype "input")
+      (net 25 "X6_L") (pinfunction "X6") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -916,7 +916,7 @@
           (width 0) (fill yes))
       ) (tstamp bff33799-6204-4c47-91b8-e2b257c2af79))
     (pad "7" smd custom (at -14.399671 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 27 "X7_L") (pinfunction "X7") (pintype "input")
+      (net 27 "X7_L") (pinfunction "X7") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -975,7 +975,7 @@
           (width 0) (fill yes))
       ) (tstamp 46966563-7cac-47eb-acf6-802b0ad9f396))
     (pad "8" smd custom (at -217.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 13 "X0_L") (pinfunction "X8") (pintype "input")
+      (net 13 "X0_L") (pinfunction "X8") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1034,7 +1034,7 @@
           (width 0) (fill yes))
       ) (tstamp 30e90361-e677-4a7d-a667-7338b0223f48))
     (pad "9" smd custom (at -188.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 15 "X1_L") (pinfunction "X9") (pintype "input")
+      (net 15 "X1_L") (pinfunction "X9") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1093,7 +1093,7 @@
           (width 0) (fill yes))
       ) (tstamp 819dea88-485b-4b6b-9cba-facd96f62470))
     (pad "10" smd custom (at -159.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 17 "X2_L") (pinfunction "X10") (pintype "input")
+      (net 17 "X2_L") (pinfunction "X10") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1152,7 +1152,7 @@
           (width 0) (fill yes))
       ) (tstamp fa5d6e25-87d3-4045-8e32-84beeb43fcdf))
     (pad "11" smd custom (at -130.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 19 "X3_L") (pinfunction "X11") (pintype "input")
+      (net 19 "X3_L") (pinfunction "X11") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1211,7 +1211,7 @@
           (width 0) (fill yes))
       ) (tstamp e621373a-bd0a-4c4b-aea0-9c19a3070682))
     (pad "12" smd custom (at -101.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 21 "X4_L") (pinfunction "X12") (pintype "input")
+      (net 21 "X4_L") (pinfunction "X12") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1270,7 +1270,7 @@
           (width 0) (fill yes))
       ) (tstamp 96a6e87e-6bd2-4e3c-94e1-c436c887165c))
     (pad "13" smd custom (at -72.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 23 "X5_L") (pinfunction "X13") (pintype "input")
+      (net 23 "X5_L") (pinfunction "X13") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1329,7 +1329,7 @@
           (width 0) (fill yes))
       ) (tstamp 027a4732-51c7-47fc-b399-b039f62758c9))
     (pad "14" smd custom (at -43.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 25 "X6_L") (pinfunction "X14") (pintype "input")
+      (net 25 "X6_L") (pinfunction "X14") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1388,7 +1388,7 @@
           (width 0) (fill yes))
       ) (tstamp a13b7d9b-d633-4a67-a0cb-f7f26bcc83ee))
     (pad "15" smd custom (at -14.399671 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 27 "X7_L") (pinfunction "X15") (pintype "input")
+      (net 27 "X7_L") (pinfunction "X15") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1447,7 +1447,7 @@
           (width 0) (fill yes))
       ) (tstamp 630448a8-b740-435f-a523-fef8162bb7b9))
     (pad "16" smd custom (at 14.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 37 "X0_R") (pinfunction "X16") (pintype "input")
+      (net 37 "X0_R") (pinfunction "X16") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1506,7 +1506,7 @@
           (width 0) (fill yes))
       ) (tstamp 21c8d701-69f6-4c77-a7c2-de691b0a3458))
     (pad "17" smd custom (at 43.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 41 "X1_R") (pinfunction "X17") (pintype "input")
+      (net 41 "X1_R") (pinfunction "X17") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1565,7 +1565,7 @@
           (width 0) (fill yes))
       ) (tstamp 66df3cce-8335-4087-b669-428de1bbd973))
     (pad "18" smd custom (at 72.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 45 "X2_R") (pinfunction "X18") (pintype "input")
+      (net 45 "X2_R") (pinfunction "X18") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1624,7 +1624,7 @@
           (width 0) (fill yes))
       ) (tstamp 5a54a5be-10b3-403e-aca4-add22aa7b2c2))
     (pad "19" smd custom (at 101.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 49 "X3_R") (pinfunction "X19") (pintype "input")
+      (net 49 "X3_R") (pinfunction "X19") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1683,7 +1683,7 @@
           (width 0) (fill yes))
       ) (tstamp 1b6c9b35-184d-425d-855e-0a55442f4ccb))
     (pad "20" smd custom (at 130.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 35 "X4_R") (pinfunction "X20") (pintype "input")
+      (net 35 "X4_R") (pinfunction "X20") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1742,7 +1742,7 @@
           (width 0) (fill yes))
       ) (tstamp 09f5513e-3eb9-4e38-94ab-b9e4e4f1768b))
     (pad "21" smd custom (at 159.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 39 "X5_R") (pinfunction "X21") (pintype "input")
+      (net 39 "X5_R") (pinfunction "X21") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1801,7 +1801,7 @@
           (width 0) (fill yes))
       ) (tstamp fb4bf2ef-424d-4da7-977b-ba1f0adb5e15))
     (pad "22" smd custom (at 188.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 43 "X6_R") (pinfunction "X22") (pintype "input")
+      (net 43 "X6_R") (pinfunction "X22") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1860,7 +1860,7 @@
           (width 0) (fill yes))
       ) (tstamp 47ad4adb-5e92-42c5-bfe5-5bae6e9713eb))
     (pad "23" smd custom (at 217.600329 -1.286712) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 47 "X7_R") (pinfunction "X23") (pintype "input")
+      (net 47 "X7_R") (pinfunction "X23") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1919,7 +1919,7 @@
           (width 0) (fill yes))
       ) (tstamp 57089095-ca4b-421c-acc3-ce7fe568dff9))
     (pad "24" smd custom (at 14.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 37 "X0_R") (pinfunction "X24") (pintype "input")
+      (net 37 "X0_R") (pinfunction "X24") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1978,7 +1978,7 @@
           (width 0) (fill yes))
       ) (tstamp 8926a818-955a-43ee-90eb-af7d2cc48012))
     (pad "25" smd custom (at 43.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 41 "X1_R") (pinfunction "X25") (pintype "input")
+      (net 41 "X1_R") (pinfunction "X25") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2037,7 +2037,7 @@
           (width 0) (fill yes))
       ) (tstamp ce846ffc-f5c1-4c32-a548-0f17ade85848))
     (pad "26" smd custom (at 72.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 45 "X2_R") (pinfunction "X26") (pintype "input")
+      (net 45 "X2_R") (pinfunction "X26") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2096,7 +2096,7 @@
           (width 0) (fill yes))
       ) (tstamp 448750a2-4f4b-4f4a-8be2-04fd1ae032a4))
     (pad "27" smd custom (at 101.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 49 "X3_R") (pinfunction "X27") (pintype "input")
+      (net 49 "X3_R") (pinfunction "X27") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2155,7 +2155,7 @@
           (width 0) (fill yes))
       ) (tstamp 56a57fc6-75fd-4a01-8eb7-489d90a19364))
     (pad "28" smd custom (at 130.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 35 "X4_R") (pinfunction "X28") (pintype "input")
+      (net 35 "X4_R") (pinfunction "X28") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2214,7 +2214,7 @@
           (width 0) (fill yes))
       ) (tstamp 94772290-6690-4360-8fb7-a109ae4e105b))
     (pad "29" smd custom (at 159.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 39 "X5_R") (pinfunction "X29") (pintype "input")
+      (net 39 "X5_R") (pinfunction "X29") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2273,7 +2273,7 @@
           (width 0) (fill yes))
       ) (tstamp 715a8f32-b862-45de-9a34-9f042023ce8c))
     (pad "30" smd custom (at 188.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 43 "X6_R") (pinfunction "X30") (pintype "input")
+      (net 43 "X6_R") (pinfunction "X30") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -2332,7 +2332,7 @@
           (width 0) (fill yes))
       ) (tstamp af49733b-87b6-4956-9bde-98ea12b61685))
     (pad "31" smd custom (at 217.600329 39.713288) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 47 "X7_R") (pinfunction "X31") (pintype "input")
+      (net 47 "X7_R") (pinfunction "X31") (pintype "input") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -4069,6 +4069,114 @@
     )
   )
 
+  (footprint "Connector_Molex:Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal" (layer "F.Cu")
+    (tstamp b99e5b5f-ca03-4a31-8c24-c2f68cbc506b)
+    (at 547.86 314.25)
+    (descr "Molex Nano-Fit Power Connectors, 105313-xx04, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator")
+    (tags "connector Molex Nano-Fit top entry")
+    (property "Sheetfile" "NegiCon.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+    (property "ki_keywords" "connector")
+    (path "/f49e38f0-e5c7-4469-9ed5-d547d84f49b1")
+    (attr through_hole)
+    (fp_text reference "J2" (at 6.15 -2.92) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 2744db38-8d48-4704-9a7a-c12ecfa54f2c)
+    )
+    (fp_text value "Right Air Sensor" (at 6.15 10.42) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp fb289c72-6551-4d50-ba1b-3b73f1cba6b0)
+    )
+    (fp_text user "${REFERENCE}" (at 6.15 8.52) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d9411c5c-eb8f-40a0-b294-cf2075cacc3f)
+    )
+    (fp_line (start -0.3 -1.534264) (end 0 -1.11)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 81c279c6-b04c-4b71-98f7-9dec76f46923))
+    (fp_line (start 0 -1.11) (end 0.3 -1.534264)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 66c2f933-4c4c-4173-ad41-b318c308f12a))
+    (fp_line (start 0.3 -1.534264) (end -0.3 -1.534264)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6f167d28-4502-4a5a-a21e-288823fca2e9))
+    (fp_line (start 1.36 -0.15) (end 1.36 0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d78dc536-56f9-461e-af58-c1aa8776d896))
+    (fp_line (start 1.36 0.15) (end 1.81 0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp aaa26b1f-c127-4956-b67a-33b773550c59))
+    (fp_line (start 1.36 2.35) (end 1.36 2.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6622e9e0-4b41-4ad6-974c-ed285dcb8d2c))
+    (fp_line (start 1.36 2.65) (end 1.81 2.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 8ffd7806-6ba0-4e26-bc63-8717faed14ab))
+    (fp_line (start 1.36 4.85) (end 1.36 5.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 006a67ab-7fcb-4316-bbd8-9a0bd2615159))
+    (fp_line (start 1.36 5.15) (end 1.81 5.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp dfccf291-5306-4bcb-9ea9-858f267b6aab))
+    (fp_line (start 1.36 7.35) (end 1.36 7.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 48249060-4708-4bda-bdce-700490024383))
+    (fp_line (start 1.36 7.65) (end 1.81 7.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp dd4b9c69-aea5-4f2d-b728-d9ce79193dd6))
+    (fp_line (start 1.81 -1.83) (end 1.81 9.33)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 8177caf7-22d8-4632-81be-983e6b798bc5))
+    (fp_line (start 1.81 -0.15) (end 1.36 -0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5803d734-bb48-4781-8f97-e2549d8a2032))
+    (fp_line (start 1.81 0.15) (end 1.81 -0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 878aa8a7-6dce-4f23-98ff-7366fdfaca61))
+    (fp_line (start 1.81 2.35) (end 1.36 2.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 57358b85-d8b9-4111-aa0b-0beefeaf32fb))
+    (fp_line (start 1.81 2.65) (end 1.81 2.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 14ce204f-5c10-49aa-a22b-7e32f0a04d12))
+    (fp_line (start 1.81 4.85) (end 1.36 4.85)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f0e3ed37-d138-488c-a771-37096587688d))
+    (fp_line (start 1.81 5.15) (end 1.81 4.85)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d9b9d169-0b3b-4bec-892f-cda987974189))
+    (fp_line (start 1.81 7.35) (end 1.36 7.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0d717b05-ec2a-46fd-8fe9-5c428f18f759))
+    (fp_line (start 1.81 7.65) (end 1.81 7.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3c62288d-25ed-48d9-a7c5-67000e7e8b42))
+    (fp_line (start 1.81 9.33) (end 10.49 9.33)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6a24d6dd-ea5a-4a00-8370-d7cca8ae6afc))
+    (fp_line (start 10.49 -1.83) (end 1.81 -1.83)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bb651557-1d0e-4494-8ca0-921659c14590))
+    (fp_line (start 10.49 9.33) (end 10.49 -1.83)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5f3c2fed-302d-4524-a3fb-1c0963770852))
+    (fp_line (start -1.6 -2.22) (end -1.6 9.72)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9ac59409-e81b-4f4d-9d6a-ca7c2f54fee6))
+    (fp_line (start -1.6 9.72) (end 10.88 9.72)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9816ac0d-656b-4f30-a2da-186a31d0a0aa))
+    (fp_line (start 10.88 -2.22) (end -1.6 -2.22)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a9efeace-8cba-443a-98d6-9b745aab6d26))
+    (fp_line (start 10.88 9.72) (end 10.88 -2.22)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a89ff470-666c-4ccd-bb2a-cce2a1a3b2e4))
+    (fp_line (start -0.3 -1.534264) (end 0 -1.11)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c8ca2ae5-c9d9-4eb7-958d-e8a1328cab9b))
+    (fp_line (start 0 -1.11) (end 0.3 -1.534264)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b053428f-b2a1-4e0b-bbcd-cceed02bd271))
+    (fp_line (start 0.3 -1.534264) (end -0.3 -1.534264)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cb4eef7e-629a-4846-b415-943f17076526))
+    (fp_line (start 1.92 -1.72) (end 1.92 9.22)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c392a303-06ba-461f-9935-0881d1f85a9c))
+    (fp_line (start 1.92 9.22) (end 10.38 9.22)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 50b74dbb-2354-49de-b048-f81c122a3136))
+    (fp_line (start 10.38 -1.72) (end 1.92 -1.72)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 42608347-4be3-4cd5-9b23-b0e925120b87))
+    (fp_line (start 10.38 9.22) (end 10.38 -1.72)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 26deed9f-8a1b-4309-b945-f9aee2c0e22c))
+    (pad "" np_thru_hole circle (at 7.18 0) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp d97c0c7f-81c5-4bcf-9ec5-d83d02a7e528))
+    (pad "" np_thru_hole circle (at 7.18 7.5) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 00b89040-561f-4d33-a0b0-a1e68aefa4fb))
+    (pad "1" thru_hole roundrect (at 0 0) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.147059)
+      (net 1 "VCC") (pinfunction "Pin_1") (pintype "passive") (tstamp 97579385-2482-4614-af60-a291664966be))
+    (pad "2" thru_hole oval (at 0 2.5) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
+      (net 79 "SCL_air") (pinfunction "Pin_2") (pintype "passive") (tstamp 1ca40cbb-cfe4-4111-abe4-1df035c6de86))
+    (pad "3" thru_hole oval (at 0 5) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
+      (net 80 "SDA_air") (pinfunction "Pin_3") (pintype "passive") (tstamp 751bce17-82b9-4aea-b6d3-0a5e1b6a3f62))
+    (pad "4" thru_hole oval (at 0 7.5) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 1cd6fe44-5ad2-4ebd-a421-fd0411ba8d28))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp cf13692a-9d2b-47c2-b293-1ea2b726f00f)
     (at 518.922 255.524 90)
@@ -4462,7 +4570,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60cc2b95-c6d0-4100-99ca-fcaae74c9253)
     )
-    (fp_text value "SC0915" (at -3.245 28.135) (layer "F.Fab")
+    (fp_text value "Pi Pico" (at -3.245 28.135) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b97834a-df87-4495-942a-a82d1eead030)
     )
@@ -10469,7 +10577,7 @@
     (fp_circle (center -12.19 -24.13) (end -12.09 -24.13)
       (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp 2ec518dc-c55b-41a6-9e44-d5551ab451ca))
     (pad "1" smd custom (at -9.69 -24.13 180) (size 1 1) (layers "F.Cu")
-      (net 65 "unconnected-(U4-GP0-Pad1)") (pinfunction "GP0") (pintype "bidirectional+no_connect")
+      (net 65 "unconnected-(U4-GP0-Pad1)") (pinfunction "GP0") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10542,7 +10650,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 586d48d6-e6e7-4639-abec-eb176d9120dc))
     (pad "2" smd custom (at -9.69 -21.59 180) (size 1 1) (layers "F.Cu")
-      (net 68 "unconnected-(U4-GP1-Pad2)") (pinfunction "GP1") (pintype "bidirectional+no_connect")
+      (net 68 "unconnected-(U4-GP1-Pad2)") (pinfunction "GP1") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10615,7 +10723,7 @@
           (width 0.01) (fill yes))
       ) (tstamp e0ecbb9c-f465-43d0-9ef1-fb3585501eb3))
     (pad "3" smd custom (at -9.69 -19.05 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10689,7 +10797,7 @@
           (width 0.01) (fill yes))
       ) (tstamp a274c48f-49f3-4a57-9fd1-1bb5f575f3b2))
     (pad "4" smd custom (at -9.69 -16.51 180) (size 1 1) (layers "F.Cu")
-      (net 101 "unconnected-(U4-GP2-Pad4)") (pinfunction "GP2") (pintype "bidirectional+no_connect")
+      (net 101 "unconnected-(U4-GP2-Pad4)") (pinfunction "GP2") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10762,7 +10870,7 @@
           (width 0.01) (fill yes))
       ) (tstamp a0d31c42-19e9-4e70-b9b9-33b82205e029))
     (pad "5" smd custom (at -9.69 -13.97 180) (size 1 1) (layers "F.Cu")
-      (net 102 "unconnected-(U4-GP3-Pad5)") (pinfunction "GP3") (pintype "bidirectional+no_connect")
+      (net 102 "unconnected-(U4-GP3-Pad5)") (pinfunction "GP3") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10835,7 +10943,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 4465c751-a244-46a0-86d6-7aec4b30f0ff))
     (pad "6" smd custom (at -9.69 -11.43 180) (size 1 1) (layers "F.Cu")
-      (net 70 "~{CS_R}") (pinfunction "GP4") (pintype "bidirectional")
+      (net 70 "~{CS_R}") (pinfunction "GP4") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10908,7 +11016,7 @@
           (width 0.01) (fill yes))
       ) (tstamp dbe64557-a420-4cfd-a15b-cee916d053d5))
     (pad "7" smd custom (at -9.69 -8.89 180) (size 1 1) (layers "F.Cu")
-      (net 61 "~{DRDY_R}") (pinfunction "GP5") (pintype "bidirectional")
+      (net 61 "~{DRDY_R}") (pinfunction "GP5") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10981,7 +11089,7 @@
           (width 0.01) (fill yes))
       ) (tstamp c6073a1b-96b5-409b-a476-a48c882937c5))
     (pad "8" smd custom (at -9.69 -6.35 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__1") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__1") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11055,7 +11163,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 8dd458bc-8add-486a-bf10-5bfff7544765))
     (pad "9" smd custom (at -9.69 -3.81 180) (size 1 1) (layers "F.Cu")
-      (net 71 "unconnected-(U4-GP6-Pad9)") (pinfunction "GP6") (pintype "bidirectional+no_connect")
+      (net 71 "unconnected-(U4-GP6-Pad9)") (pinfunction "GP6") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11128,7 +11236,7 @@
           (width 0.01) (fill yes))
       ) (tstamp a5b61ebe-5bb3-4155-b333-61d05ff8972e))
     (pad "10" smd custom (at -9.69 -1.27 180) (size 1 1) (layers "F.Cu")
-      (net 72 "unconnected-(U4-GP7-Pad10)") (pinfunction "GP7") (pintype "bidirectional+no_connect")
+      (net 72 "unconnected-(U4-GP7-Pad10)") (pinfunction "GP7") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11201,7 +11309,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 7b071857-8e53-4999-9ae6-4261ae768e7c))
     (pad "11" smd custom (at -9.69 1.27 180) (size 1 1) (layers "F.Cu")
-      (net 73 "unconnected-(U4-GP8-Pad11)") (pinfunction "GP8") (pintype "bidirectional+no_connect")
+      (net 73 "unconnected-(U4-GP8-Pad11)") (pinfunction "GP8") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11274,7 +11382,7 @@
           (width 0.01) (fill yes))
       ) (tstamp dd3b22a8-67c5-4a32-b229-ef459e681026))
     (pad "12" smd custom (at -9.69 3.81 180) (size 1 1) (layers "F.Cu")
-      (net 74 "unconnected-(U4-GP9-Pad12)") (pinfunction "GP9") (pintype "bidirectional+no_connect")
+      (net 74 "unconnected-(U4-GP9-Pad12)") (pinfunction "GP9") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11347,7 +11455,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 6bc69f12-9079-4a80-89ea-1892ad6f6590))
     (pad "13" smd custom (at -9.69 6.35 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__2") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__2") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11421,7 +11529,7 @@
           (width 0.01) (fill yes))
       ) (tstamp b6f2e8f9-cf1a-40eb-baf0-36743a0bc072))
     (pad "14" smd custom (at -9.69 8.89 180) (size 1 1) (layers "F.Cu")
-      (net 75 "unconnected-(U4-GP10-Pad14)") (pinfunction "GP10") (pintype "bidirectional+no_connect")
+      (net 75 "unconnected-(U4-GP10-Pad14)") (pinfunction "GP10") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11494,7 +11602,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 1817beb2-7220-4e11-8f86-26b1d5681d2c))
     (pad "15" smd custom (at -9.69 11.43 180) (size 1 1) (layers "F.Cu")
-      (net 76 "unconnected-(U4-GP11-Pad15)") (pinfunction "GP11") (pintype "bidirectional+no_connect")
+      (net 76 "unconnected-(U4-GP11-Pad15)") (pinfunction "GP11") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11567,7 +11675,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 0025787d-be46-46a4-a069-e05a5902fdcb))
     (pad "16" smd custom (at -9.69 13.97 180) (size 1 1) (layers "F.Cu")
-      (net 77 "unconnected-(U4-GP12-Pad16)") (pinfunction "GP12") (pintype "bidirectional+no_connect")
+      (net 77 "unconnected-(U4-GP12-Pad16)") (pinfunction "GP12") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11640,7 +11748,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 4eef3e55-83a8-42b7-a859-f00bdd41e7d8))
     (pad "17" smd custom (at -9.69 16.51 180) (size 1 1) (layers "F.Cu")
-      (net 78 "unconnected-(U4-GP13-Pad17)") (pinfunction "GP13") (pintype "bidirectional+no_connect")
+      (net 78 "unconnected-(U4-GP13-Pad17)") (pinfunction "GP13") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11713,7 +11821,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 6129a647-cd97-4688-b2c6-ba69909434e7))
     (pad "18" smd custom (at -9.69 19.05 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__3") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__3") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11787,7 +11895,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 6bc0116f-8fcb-4815-b61e-5cc82790f6d5))
     (pad "19" smd custom (at -9.69 21.59 180) (size 1 1) (layers "F.Cu")
-      (net 79 "unconnected-(U4-GP14-Pad19)") (pinfunction "GP14") (pintype "bidirectional+no_connect")
+      (net 80 "SDA_air") (pinfunction "GP14") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11860,7 +11968,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 7b2acd72-dfd1-4d02-81c9-d67072039178))
     (pad "20" smd custom (at -9.69 24.13 180) (size 1 1) (layers "F.Cu")
-      (net 80 "unconnected-(U4-GP15-Pad20)") (pinfunction "GP15") (pintype "bidirectional+no_connect")
+      (net 79 "SCL_air") (pinfunction "GP15") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11933,7 +12041,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 34f55f5f-18b0-471f-ab55-076789e00e5d))
     (pad "21" smd custom (at 9.69 24.13 180) (size 1 1) (layers "F.Cu")
-      (net 55 "MISO") (pinfunction "GP16") (pintype "bidirectional")
+      (net 55 "MISO") (pinfunction "GP16") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12006,7 +12114,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 0f9d2f32-f236-4eac-b5dc-73d8b30538b7))
     (pad "22" smd custom (at 9.69 21.59 180) (size 1 1) (layers "F.Cu")
-      (net 89 "unconnected-(U4-GP17-Pad22)") (pinfunction "GP17") (pintype "bidirectional+no_connect")
+      (net 89 "unconnected-(U4-GP17-Pad22)") (pinfunction "GP17") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12079,7 +12187,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 722bc476-a77e-46ea-9eb3-bd1b79a81be1))
     (pad "23" smd custom (at 9.69 19.05 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__4") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__4") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12153,7 +12261,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 4af51bd7-1ba3-4583-9db4-88e884203e05))
     (pad "24" smd custom (at 9.69 16.51 180) (size 1 1) (layers "F.Cu")
-      (net 56 "SCK") (pinfunction "GP18") (pintype "bidirectional")
+      (net 56 "SCK") (pinfunction "GP18") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12226,7 +12334,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 08034c68-060b-4b43-ad60-34116a37c969))
     (pad "25" smd custom (at 9.69 13.97 180) (size 1 1) (layers "F.Cu")
-      (net 54 "MOSI") (pinfunction "GP19") (pintype "bidirectional")
+      (net 54 "MOSI") (pinfunction "GP19") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12299,7 +12407,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 52b0c107-5e0b-48dc-8897-d0781fe682b1))
     (pad "26" smd custom (at 9.69 11.43 180) (size 1 1) (layers "F.Cu")
-      (net 88 "unconnected-(U4-GP20-Pad26)") (pinfunction "GP20") (pintype "bidirectional+no_connect")
+      (net 88 "unconnected-(U4-GP20-Pad26)") (pinfunction "GP20") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12372,7 +12480,7 @@
           (width 0.01) (fill yes))
       ) (tstamp e2402fa9-5584-4440-947d-e0fa3b23d5e0))
     (pad "27" smd custom (at 9.69 8.89 180) (size 1 1) (layers "F.Cu")
-      (net 87 "unconnected-(U4-GP21-Pad27)") (pinfunction "GP21") (pintype "bidirectional+no_connect")
+      (net 87 "unconnected-(U4-GP21-Pad27)") (pinfunction "GP21") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12445,7 +12553,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 915a2a7a-9dc2-4cb9-8239-eb363e2456e6))
     (pad "28" smd custom (at 9.69 6.35 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__5") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__5") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12519,7 +12627,7 @@
           (width 0.01) (fill yes))
       ) (tstamp cc6ace1a-68da-4766-943a-98d1bde7b5e8))
     (pad "29" smd custom (at 9.69 3.81 180) (size 1 1) (layers "F.Cu")
-      (net 86 "unconnected-(U4-GP22-Pad29)") (pinfunction "GP22") (pintype "bidirectional+no_connect")
+      (net 86 "unconnected-(U4-GP22-Pad29)") (pinfunction "GP22") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12592,7 +12700,7 @@
           (width 0.01) (fill yes))
       ) (tstamp d36458cf-0bfd-4197-a7ac-28c3bffaa533))
     (pad "30" smd custom (at 9.69 1.27 180) (size 1 1) (layers "F.Cu")
-      (net 85 "unconnected-(U4-~{RUN}-Pad30)") (pinfunction "~{RUN}") (pintype "input+no_connect")
+      (net 85 "unconnected-(U4-~{RUN}-Pad30)") (pinfunction "~{RUN}") (pintype "input+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12665,7 +12773,7 @@
           (width 0.01) (fill yes))
       ) (tstamp d2ff337c-0217-4077-bf8a-22618a2de1d7))
     (pad "31" smd custom (at 9.69 -1.27 180) (size 1 1) (layers "F.Cu")
-      (net 69 "~{CS_L}") (pinfunction "GP26") (pintype "bidirectional")
+      (net 69 "~{CS_L}") (pinfunction "GP26") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12738,7 +12846,7 @@
           (width 0.01) (fill yes))
       ) (tstamp fe2bab90-081f-437c-8b1e-0ab225642d4a))
     (pad "32" smd custom (at 9.69 -3.81 180) (size 1 1) (layers "F.Cu")
-      (net 53 "~{DRDY_L}") (pinfunction "GP27") (pintype "bidirectional")
+      (net 53 "~{DRDY_L}") (pinfunction "GP27") (pintype "bidirectional") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12811,7 +12919,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 14dd6f90-70bb-44f3-91b9-ef62a819118d))
     (pad "33" smd custom (at 9.69 -6.35 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "AGND") (pintype "power_in")
+      (net 2 "GND") (pinfunction "AGND") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12885,7 +12993,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 5c71dba1-dbb9-4a4f-85d1-74aecf46cc5e))
     (pad "34" smd custom (at 9.69 -8.89 180) (size 1 1) (layers "F.Cu")
-      (net 84 "unconnected-(U4-GP28-Pad34)") (pinfunction "GP28") (pintype "bidirectional+no_connect")
+      (net 84 "unconnected-(U4-GP28-Pad34)") (pinfunction "GP28") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12958,7 +13066,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 7809a0bf-2b12-4884-8d78-0c3a36dddce3))
     (pad "35" smd custom (at 9.69 -11.43 180) (size 1 1) (layers "F.Cu")
-      (net 83 "unconnected-(U4-ADC_VREF-Pad35)") (pinfunction "ADC_VREF") (pintype "power_in+no_connect")
+      (net 83 "unconnected-(U4-ADC_VREF-Pad35)") (pinfunction "ADC_VREF") (pintype "power_in+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13031,7 +13139,7 @@
           (width 0.01) (fill yes))
       ) (tstamp b4b709d7-a958-4d98-8735-3a6b7577b06b))
     (pad "36" smd custom (at 9.69 -13.97 180) (size 1 1) (layers "F.Cu")
-      (net 1 "VCC") (pinfunction "3V3_OUT") (pintype "power_in")
+      (net 1 "VCC") (pinfunction "3V3_OUT") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13104,7 +13212,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 5c26a457-fc50-4e96-8237-a0eed6396777))
     (pad "37" smd custom (at 9.69 -16.51 180) (size 1 1) (layers "F.Cu")
-      (net 82 "unconnected-(U4-3V3_EN-Pad37)") (pinfunction "3V3_EN") (pintype "input+no_connect")
+      (net 82 "unconnected-(U4-3V3_EN-Pad37)") (pinfunction "3V3_EN") (pintype "input+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13177,7 +13285,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 462a137e-bae8-46c3-ab8b-21eac24a4173))
     (pad "38" smd custom (at 9.69 -19.05 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__6") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__6") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13251,7 +13359,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 790560f0-e5a3-4e4e-9983-7709daf5df15))
     (pad "39" smd custom (at 9.69 -21.59 180) (size 1 1) (layers "F.Cu")
-      (net 81 "unconnected-(U4-VSYS-Pad39)") (pinfunction "VSYS") (pintype "power_in+no_connect")
+      (net 81 "unconnected-(U4-VSYS-Pad39)") (pinfunction "VSYS") (pintype "power_in+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13324,7 +13432,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 280fff5f-948b-46b4-972f-d0ef41f9dc37))
     (pad "40" smd custom (at 9.69 -24.13 180) (size 1 1) (layers "F.Cu")
-      (net 66 "unconnected-(U4-VBUS-Pad40)") (pinfunction "VBUS") (pintype "power_in+no_connect")
+      (net 66 "unconnected-(U4-VBUS-Pad40)") (pinfunction "VBUS") (pintype "power_in+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13405,7 +13513,7 @@
     (pad "D" smd oval (at 2.425 -20.97 180) (size 1.05 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 100 "unconnected-(U4-USB_SHIELD__3-PadD)") (pinfunction "USB_SHIELD__3") (pintype "power_in+no_connect") (solder_mask_margin 0.102) (tstamp 09d3a1ab-407c-432a-940b-d97a5e374b6a))
     (pad "D1" smd custom (at -2.54 24.7 180) (size 1 1) (layers "F.Cu")
-      (net 67 "unconnected-(U4-SWCLK-PadD1)") (pinfunction "SWCLK") (pintype "input+no_connect")
+      (net 67 "unconnected-(U4-SWCLK-PadD1)") (pinfunction "SWCLK") (pintype "input+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13478,7 +13586,7 @@
           (width 0.01) (fill yes))
       ) (tstamp 92521d4b-d1f0-4120-8c26-10170928eb43))
     (pad "D2" smd custom (at 0 24.7 180) (size 1 1) (layers "F.Cu")
-      (net 2 "GND") (pinfunction "GND__7") (pintype "power_in")
+      (net 2 "GND") (pinfunction "GND__7") (pintype "power_in") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13552,7 +13660,7 @@
           (width 0.01) (fill yes))
       ) (tstamp d2b7968a-2403-4a0b-81ca-f8e11b6a5575))
     (pad "D3" smd custom (at 2.54 24.7 180) (size 1 1) (layers "F.Cu")
-      (net 90 "unconnected-(U4-SWDIO-PadD3)") (pinfunction "SWDIO") (pintype "bidirectional+no_connect")
+      (net 90 "unconnected-(U4-SWDIO-PadD3)") (pinfunction "SWDIO") (pintype "bidirectional+no_connect") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13686,6 +13794,114 @@
     (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 17 "X2_L") (pintype "passive") (tstamp 70855a16-610f-43b3-bffc-75dceb76b89e))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Connector_Molex:Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal" (layer "F.Cu")
+    (tstamp f4306aa3-c344-46b4-b7d9-e64a6e7c5807)
+    (at 56.18 319 180)
+    (descr "Molex Nano-Fit Power Connectors, 105313-xx04, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator")
+    (tags "connector Molex Nano-Fit top entry")
+    (property "Sheetfile" "NegiCon.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+    (property "ki_keywords" "connector")
+    (path "/602895f6-e1bf-4928-a3d7-9a37ff98aa5d")
+    (attr through_hole)
+    (fp_text reference "J1" (at 6.15 -2.92) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 460b5372-b9fa-49a0-8748-a605400b1faf)
+    )
+    (fp_text value "Left Air Sensor" (at 6.15 10.42) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6b8f54b7-6822-40d3-a734-182f53ab8ab7)
+    )
+    (fp_text user "${REFERENCE}" (at 6.15 8.52) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 7dd8812d-51af-41b4-ac31-d12d43c43030)
+    )
+    (fp_line (start -0.3 -1.534264) (end 0 -1.11)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 043bfd68-5418-4705-8d8b-6aa5b15c7830))
+    (fp_line (start 0 -1.11) (end 0.3 -1.534264)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a6638a81-c6b8-4196-a31f-0f2bbeed7620))
+    (fp_line (start 0.3 -1.534264) (end -0.3 -1.534264)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c0b956b4-f3a1-40a3-bd9a-84976f71913e))
+    (fp_line (start 1.36 -0.15) (end 1.36 0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ee2c212d-1f6f-44bc-8808-d63c753dc131))
+    (fp_line (start 1.36 0.15) (end 1.81 0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6963e17b-ae54-4601-b134-6834407882ac))
+    (fp_line (start 1.36 2.35) (end 1.36 2.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b53eb20a-af6d-47a0-9433-d108c76c4042))
+    (fp_line (start 1.36 2.65) (end 1.81 2.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4fffe582-c426-48ff-ba11-248c7d4477fd))
+    (fp_line (start 1.36 4.85) (end 1.36 5.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3265cd05-c2fb-446a-bbc4-c04d5490e101))
+    (fp_line (start 1.36 5.15) (end 1.81 5.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d62b54f6-ee89-469c-b181-e8c1b3f777ca))
+    (fp_line (start 1.36 7.35) (end 1.36 7.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e09586de-89f0-439b-83f1-9877f1c15c8f))
+    (fp_line (start 1.36 7.65) (end 1.81 7.65)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bb564b29-a846-4b19-ad1f-65461c34d625))
+    (fp_line (start 1.81 -1.83) (end 1.81 9.33)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 24a5620e-1955-4997-9d68-f61410609d1b))
+    (fp_line (start 1.81 -0.15) (end 1.36 -0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 814b617a-53ab-420d-9f90-4d1c5804bc24))
+    (fp_line (start 1.81 0.15) (end 1.81 -0.15)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f1061036-b41f-4462-a568-004f92baa702))
+    (fp_line (start 1.81 2.35) (end 1.36 2.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6b1b08cf-9cbf-4729-b5a2-2b9a3723ad31))
+    (fp_line (start 1.81 2.65) (end 1.81 2.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7e290e4a-0803-4079-a9ae-b11d97604bba))
+    (fp_line (start 1.81 4.85) (end 1.36 4.85)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e4b9d34e-5658-4a5c-831c-2330f181b431))
+    (fp_line (start 1.81 5.15) (end 1.81 4.85)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5af67d9f-c642-457f-994c-cf90fb68bebf))
+    (fp_line (start 1.81 7.35) (end 1.36 7.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f0309d71-67aa-4c2e-ad49-93625e6d19a1))
+    (fp_line (start 1.81 7.65) (end 1.81 7.35)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3c5233e9-7646-4114-99b9-39c178ba3d92))
+    (fp_line (start 1.81 9.33) (end 10.49 9.33)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d87eb656-57f9-4f16-ae2f-7a489712d892))
+    (fp_line (start 10.49 -1.83) (end 1.81 -1.83)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d40263d3-b14c-4b1f-bfe7-30a13ce7e5be))
+    (fp_line (start 10.49 9.33) (end 10.49 -1.83)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 035d4071-44b8-4410-8eb3-46cc286da154))
+    (fp_line (start -1.6 -2.22) (end -1.6 9.72)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ae83cfef-fb23-4756-8299-f97421e1508d))
+    (fp_line (start -1.6 9.72) (end 10.88 9.72)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a2dcc62a-da00-41ff-b209-102757417b93))
+    (fp_line (start 10.88 -2.22) (end -1.6 -2.22)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9703285e-ccd9-4db9-9a42-5e11a80cd84d))
+    (fp_line (start 10.88 9.72) (end 10.88 -2.22)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 7b851edd-df0d-4108-8183-224945f4885c))
+    (fp_line (start -0.3 -1.534264) (end 0 -1.11)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 499bb7b7-8367-4124-bc12-3134875da6e1))
+    (fp_line (start 0 -1.11) (end 0.3 -1.534264)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3c2a537c-df0c-4a46-a138-05d2986c74df))
+    (fp_line (start 0.3 -1.534264) (end -0.3 -1.534264)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0adc1cb8-1505-40f0-b35e-b90603cc7586))
+    (fp_line (start 1.92 -1.72) (end 1.92 9.22)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1dff4168-09db-4427-9de8-4ab66eecd5da))
+    (fp_line (start 1.92 9.22) (end 10.38 9.22)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 58705d82-0266-4027-803d-578d8bb5c03e))
+    (fp_line (start 10.38 -1.72) (end 1.92 -1.72)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6d36b662-d5ff-4f85-b4be-aa30a95bd423))
+    (fp_line (start 10.38 9.22) (end 10.38 -1.72)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f2b564b7-636a-4565-b5e1-5342e25b1b55))
+    (pad "" np_thru_hole circle (at 7.18 0 180) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 25d7c0bf-5fae-4df1-9109-4fb9f6459d7a))
+    (pad "" np_thru_hole circle (at 7.18 7.5 180) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 4d4fa17f-0599-4230-804c-7f3a44e03728))
+    (pad "1" thru_hole roundrect (at 0 0 180) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.147059)
+      (net 1 "VCC") (pinfunction "Pin_1") (pintype "passive") (tstamp 366e3a65-7374-45d9-b1d3-057e39620216))
+    (pad "2" thru_hole oval (at 0 2.5 180) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
+      (net 79 "SCL_air") (pinfunction "Pin_2") (pintype "passive") (tstamp b8e525ed-9edb-45ca-9760-1e79ad3c92eb))
+    (pad "3" thru_hole oval (at 0 5 180) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
+      (net 80 "SDA_air") (pinfunction "Pin_3") (pintype "passive") (tstamp 892968d3-3d75-4e4c-b336-35c08415dde4))
+    (pad "4" thru_hole oval (at 0 7.5 180) (size 2.2 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp aafce6bb-f404-4537-91b8-83392447de00))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
