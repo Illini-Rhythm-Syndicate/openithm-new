@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e1c26e48-3954-40c7-ab60-e93b1c7b3062")
+	(paper "A4")
+	(title_block
+		(title "Openithm Blue")
+		(date "2024-11-29")
+		(rev "5")
+		(company "Illini Rhythm Syndicate")
+	)
+	(lib_symbols)
+)
