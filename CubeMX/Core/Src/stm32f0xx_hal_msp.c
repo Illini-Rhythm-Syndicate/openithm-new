@@ -165,7 +165,6 @@ void HAL_TSC_MspInit(TSC_HandleTypeDef* htsc)
     __HAL_RCC_GPIOA_CLK_ENABLE();
     __HAL_RCC_GPIOC_CLK_ENABLE();
     __HAL_RCC_GPIOB_CLK_ENABLE();
-    __HAL_RCC_GPIOD_CLK_ENABLE();
     /**TSC GPIO Configuration
     PE2     ------> TSC_G7_IO1
     PE3     ------> TSC_G7_IO2
@@ -183,10 +182,10 @@ void HAL_TSC_MspInit(TSC_HandleTypeDef* htsc)
     PB0     ------> TSC_G3_IO2
     PB1     ------> TSC_G3_IO3
     PB2     ------> TSC_G3_IO4
-    PD12     ------> TSC_G8_IO1
-    PD13     ------> TSC_G8_IO2
-    PD14     ------> TSC_G8_IO3
-    PD15     ------> TSC_G8_IO4
+    PB11     ------> TSC_G6_IO1
+    PB12     ------> TSC_G6_IO2
+    PB13     ------> TSC_G6_IO3
+    PB14     ------> TSC_G6_IO4
     PB3     ------> TSC_G5_IO1
     PB4     ------> TSC_G5_IO2
     PB6     ------> TSC_G5_IO3
@@ -228,29 +227,16 @@ void HAL_TSC_MspInit(TSC_HandleTypeDef* htsc)
     GPIO_InitStruct.Alternate = GPIO_AF0_TSC;
     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_4
-                          |GPIO_PIN_6|GPIO_PIN_7;
+    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_12
+                          |GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_4|GPIO_PIN_6
+                          |GPIO_PIN_7;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.Alternate = GPIO_AF3_TSC;
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = GPIO_PIN_12;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    GPIO_InitStruct.Alternate = GPIO_AF1_TSC;
-    HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    GPIO_InitStruct.Alternate = GPIO_AF1_TSC;
-    HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = GPIO_PIN_3;
+    GPIO_InitStruct.Pin = GPIO_PIN_11|GPIO_PIN_3;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -297,10 +283,10 @@ void HAL_TSC_MspDeInit(TSC_HandleTypeDef* htsc)
     PB0     ------> TSC_G3_IO2
     PB1     ------> TSC_G3_IO3
     PB2     ------> TSC_G3_IO4
-    PD12     ------> TSC_G8_IO1
-    PD13     ------> TSC_G8_IO2
-    PD14     ------> TSC_G8_IO3
-    PD15     ------> TSC_G8_IO4
+    PB11     ------> TSC_G6_IO1
+    PB12     ------> TSC_G6_IO2
+    PB13     ------> TSC_G6_IO3
+    PB14     ------> TSC_G6_IO4
     PB3     ------> TSC_G5_IO1
     PB4     ------> TSC_G5_IO2
     PB6     ------> TSC_G5_IO3
@@ -313,10 +299,9 @@ void HAL_TSC_MspDeInit(TSC_HandleTypeDef* htsc)
 
     HAL_GPIO_DeInit(GPIOC, GPIO_PIN_5);
 
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_11
+                          |GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_3
                           |GPIO_PIN_4|GPIO_PIN_6|GPIO_PIN_7);
-
-    HAL_GPIO_DeInit(GPIOD, GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15);
 
   /* USER CODE BEGIN TSC_MspDeInit 1 */
 
