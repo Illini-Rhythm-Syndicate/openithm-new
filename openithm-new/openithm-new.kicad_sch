@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 74.93 49.53)
+		(at 69.85 81.28)
 		(size 74.93 43.18)
 		(fields_autoplaced yes)
 		(stroke
@@ -24,7 +24,7 @@
 		)
 		(uuid "0bc1cbc6-7225-43f6-987e-178a5cf4a396")
 		(property "Sheetname" "Main Board"
-			(at 74.93 48.8184 0)
+			(at 69.85 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "main.kicad_sch"
-			(at 74.93 93.2946 0)
+			(at 69.85 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,83 +50,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 102.87)
-		(size 74.93 43.18)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "259dd4a4-d56d-4571-9fac-df0d418753f7")
-		(property "Sheetname" "Air Sensor IR"
-			(at 74.93 102.1584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "air_ir.kicad_sch"
-			(at 74.93 146.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "openithm-new"
-				(path "/24ef4980-772f-43bd-95fe-2a56cd9ca729"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 156.21 102.87)
-		(size 74.93 43.18)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "25fce359-e9de-492d-94bf-a00d875b6f87")
-		(property "Sheetname" "Air Sensor Receiver"
-			(at 156.21 102.1584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "air_rec.kicad_sch"
-			(at 156.21 146.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "openithm-new"
-				(path "/24ef4980-772f-43bd-95fe-2a56cd9ca729"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 156.21 49.53)
+		(at 151.13 81.28)
 		(size 74.93 41.91)
 		(fields_autoplaced yes)
 		(stroke
@@ -138,7 +62,7 @@
 		)
 		(uuid "a4f4d827-e4b3-4475-bac3-2885b3c93595")
 		(property "Sheetname" "Touch Board"
-			(at 156.21 48.8184 0)
+			(at 151.13 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,7 +71,7 @@
 			)
 		)
 		(property "Sheetfile" "touch.kicad_sch"
-			(at 156.21 92.0246 0)
+			(at 151.13 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

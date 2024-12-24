@@ -43,12 +43,12 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.08,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -121,7 +121,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.16,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.25,
@@ -133,7 +133,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.16,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.7,
         "solder_mask_to_copper_clearance": 0.0,
@@ -184,7 +184,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
+        0.16,
+        0.254,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -219,8 +220,16 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.4,
+          "drill": 0.16
+        },
+        {
           "diameter": 0.7,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -490,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -610,14 +619,6 @@
     [
       "a4f4d827-e4b3-4475-bac3-2885b3c93595",
       "Touch Board"
-    ],
-    [
-      "259dd4a4-d56d-4571-9fac-df0d418753f7",
-      "Air Sensor IR"
-    ],
-    [
-      "25fce359-e9de-492d-94bf-a00d875b6f87",
-      "Air Sensor Receiver"
     ],
     [
       "19f89589-6976-49b1-8e8a-80c19b06dfbf",

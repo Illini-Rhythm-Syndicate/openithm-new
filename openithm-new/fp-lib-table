@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Openithm")(type "KiCad")(uri "C:/Users/hause/Documents/openithm-new/Libraries/Openithm.pretty")(options "")(descr ""))
+)
